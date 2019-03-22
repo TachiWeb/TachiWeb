@@ -1,3 +1,10 @@
 rootProject.name = 'tachiweb'
 
+// Composite builds
+includeBuild('tachiyomi') {
+    dependencySubstitution {
+        substitute module('tachiyomi:domain') with project(':domain')
+    }
+}
+
 include 'server'

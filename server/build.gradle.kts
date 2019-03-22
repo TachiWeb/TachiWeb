@@ -20,6 +20,7 @@ dependencies {
     api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlinVersion:modular")
     api("org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion:modular")
     api("org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion:modular")
+    implementation("tachiyomi:domain")
 
     testCompile("junit", "junit", "4.12")
 }

@@ -1,0 +1,3 @@
+[submodule "tachiyomi"]
+	path = tachiyomi
+	url = git@github.com:inorichi/tachiyomi.git
